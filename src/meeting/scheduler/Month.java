@@ -46,7 +46,7 @@ public class Month {
     
     public String toString() {
         String m = "Month: " + monthIndex + "\n";
-        m += "S, M, T, W, TH, F, SA\n"
+        m += "S, M, T, W, TH, F, SA\n";
         for(int i = 0; i < 6; i++) {
             for(int j = 0; j < 7; j++) {
                 if(dayArray[i][j].hasConflicts()) {
